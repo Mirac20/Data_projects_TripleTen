@@ -5,7 +5,7 @@ Unsupervised Learning.
 
 | Project               | Description                                                                                 | Libraries                      |
 |:--------------------- |:------------------------------------------------------------------------------------------- |:------------------------------ |
-|[Analysis of Customer Credit Worthiness](https://github.com/cbngwajr/yandex-practicum/tree/Project-1 "Credit Score Analysis")|Utilizing different metrics to determine the likelihood that a customer defaults on a loan|*pandas, ntlk*|
+|[Analysis of Customer Credit Worthiness](https://github.com/Mirac20/Data_projects_TripleTen/blob/main/sprint1_bank_loan_report.ipynb "Credit Score Analysis")|Utilizing different metrics to determine the likelihood that a customer defaults on a loan|*pandas, ntlk*|
 |[Car Sales Analysis](https://github.com/cbngwajr/yandex-practicum/tree/Project-2 "Vehicle Price Analysis")|Studying vehicle ads to determine what factors influence vehicle price|*pandas, matplotlib, numpy*|
 |[Analysis on Prepaid Phone Plans](https://github.com/cbngwajr/yandex-practicum/tree/Project-3 "Phone Plan Analysis")|Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing|*pandas, matplotlib, scipy, numpy, nltk*|
 |[Historical Analysis on Video Games](https://github.com/cbngwajr/yandex-practicum/tree/Project-4 "Video Game Analysis")|Identifying patterns that determine a game's success to help prepare ad campaigns for the subsequent year|*pandas, matplotlib, scipy, numpy, nltk*|
