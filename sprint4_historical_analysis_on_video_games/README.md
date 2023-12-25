@@ -22,7 +22,7 @@ The data we have dates up to 2016. The dataset contains the abbreviation ESRB. T
 - Look at how many games were released in different years. Is the data for every period significant?
 - How long does it generally take for new platforms to appear and old ones to fade?
 - Which platforms are leading in sales? Which ones are growing or shrinking? 
-- Build a box plot for the global sales of all games, broken down by platform. Are the differences in sales significant? What about average sales on various platforms?
+- Building a box plot for the global sales of all games, broken down by platform. Are the differences in sales significant? What about average sales on various platforms?
 - Take a look at the general distribution of games by genre. What can we say about the most profitable genres? Can you generalize about genres with high and low sales?
 
 
