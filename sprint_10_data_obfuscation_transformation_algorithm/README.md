@@ -14,8 +14,7 @@ This project is done for Sure Tomorrow Insurance company, my task is to used Mac
 - `salary` - Salary of insured
 - `number of family members` - Number of dependents
 
-
- To find customers that are similar to other customers to help the company's marketing department in placing targeted ads, it was discovered that when the data is not scaled the KNN algorithm is affected very much. However, after scaling, all the columns are brought within the same range. Also, using the Manhattan distance metric, the results on the scaled data is quite different from the results on the unscaled data. On the unscaled data, the weights are not even, and the values for the income, and insurance_benefits column are constant. The scaled data has constant values for the insurance_benefits column, just like the unscaled data. However, the values in the family_members and gender columns were constant after scaling.
+  # **Project Insight**
 
 To predict whether a new customer is likely to receive an insurance benefit. We had to compare the performance of our model with a dummy model and see if it does better. We built a KNN-based classifier and measured its quality with the F1 metric for k = 1 - 10 for both the original data and the scaled one. The F1 score was significantly higher on the scaled dataset, and Nearest Neighbor K = 1 performed best. Therefore KNN is quite good for this task. Also, we found out that the random model performs worse than the actual KNN model.
 
