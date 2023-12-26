@@ -1,7 +1,7 @@
 
 ## Project description
 
-Beta Bank customers are leaving, chipping away every month. The bank figured it is cheaper to save the existing customers rather than to attract new ones.
+Beta Bank customers are leaving, chipping away every month. The bank figured it is cheaper to save the existing customers rather than attract new ones.
 This project is focused on predicting whether a customer will leave the bank soon. We have data on clients’ past behavior and termination of contracts with the bank.
 The goal in this project is to build a model with the maximum possible F1 score, then, measure the AUC-ROC metric and compare it with the F1.
 
