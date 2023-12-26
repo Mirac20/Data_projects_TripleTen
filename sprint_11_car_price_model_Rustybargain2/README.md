@@ -28,8 +28,8 @@ Rusty Bargain is interested in:
 - `LastSeen` — date of the last activity of the user
 - `Price` — price (Euro)
 
+## **Project Insight**
 
-
-Several models were built to determine the value of the cars. We have successfully cleaned and prepared the data and used it to train models. Linear Regression has the best training time (90.9 ms) while the worst is Random Forest (40700 ms). Also, Linear Regression has the best prediction time of 5.96 ms while the Random Forest Model has the worst, 886 ms.
+Several models were built to determine the value of the cars. Linear Regression has the best training time (90.9 ms) while the worst is Random Forest (40700 ms). Also, Linear Regression has the best prediction time of 5.96 ms while the Random Forest Model has the worst, 886 ms.
 
 Random Forest has the best RMSE of 1457. However, the time taken for training and prediction is highest. The CatBoost model takes about half the time of the Random Forest model for training, and about four times less than the Random Forest Model for making predictions. Moreover, the RMSE of the CatBoost Model is 1489. Therefore, we will recommend with the CatBoost model.
