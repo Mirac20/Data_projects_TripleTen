@@ -27,7 +27,7 @@ You have the raw data that was only downloaded from the warehouse. Before buildi
 
 # **Project Insight**
 
-In this project, my task is to design a predictive model that is capable of estimating the quantity of gold extractable from gold ore. The data related to both the extraction and purification processes of gold ore were provided as invaluable resources for training the model. The ultimate expectation of this model is to facilitate a more efficient production process.
+In this project, my task is to design a predictive model that is capable of estimating the quantity of gold extractable from gold ore. The data related to both the extraction and purification processes of gold ore were provided as resources for training the model. The ultimate expectation of this model is to facilitate a more efficient production process.
 
 After creating the model, and conducting  indepth exploratory analysis, these are the summary of the project:
 
