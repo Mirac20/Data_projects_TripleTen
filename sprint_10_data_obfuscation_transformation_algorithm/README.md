@@ -14,7 +14,7 @@ This project is done for Sure Tomorrow Insurance company, my task is to used Mac
 - `salary` - Salary of insured
 - `number of family members` - Number of dependents
 
-  # **Project Insight**
+  ## **Project Insight**
 
 To predict whether a new customer is likely to receive an insurance benefit. We had to compare the performance of our model with a dummy model and see if it does better. We built a KNN-based classifier and measured its quality with the F1 metric for k = 1 - 10 for both the original data and the scaled one. The F1 score was significantly higher on the scaled dataset, and Nearest Neighbor K = 1 performed best. Therefore KNN is quite good for this task. Also, we found out that the random model performs worse than the actual KNN model.
 
