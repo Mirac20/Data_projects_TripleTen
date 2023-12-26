@@ -1,6 +1,7 @@
 ## Project description
+This project is done for the company Zyfra. The company develops efficiency solutions for heavy industry. The goal of the project is to prepare a prototype of a machine learning model for zyfra which will be used to predict the amount of gold recovered from gold ore. We will be predicting the concentrations of gold after the first and final stages of purification.
 
-The data is stored in three files:
+The data for this project is stored in three files:
 
 - gold_recovery_train.csv — training dataset download
 - gold_recovery_test.csv — test dataset download
