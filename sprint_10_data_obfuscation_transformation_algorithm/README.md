@@ -1,13 +1,11 @@
 ## Project description
 
-The Sure Tomorrow insurance company wants to solve several tasks with the help of Machine Learning, and you are asked to evaluate that possibility.
+This project is done for Sure Tomorrow Insurance company, my task is to used Machine Learning to :
 
-- Task 1: Find customers who are similar to a given customer. This will help the company's agents with marketing.
-- Task 2: Predict whether a new customer is likely to receive an insurance benefit. Can a prediction model do better than a dummy model?
-- Task 3: Predict the number of insurance benefits a new customer is likely to receive using a linear regression model.
-- Task 4: Protect clients' personal data without breaking the model from the previous task.
-
-
+- find customers that are similar to other customers to help the company's marketing department in placing targeted ads.
+- predict whether a new customer is likely to receive an insurance benefit.
+- predict the number of insurance benefits a new customer is likely to receive.
+- protect clients' personal data by developing a data transformation algorithm without breaking the model
 
 ## Description of the data
 
@@ -15,3 +13,14 @@ The Sure Tomorrow insurance company wants to solve several tasks with the help o
 - `age` - Age of insured
 - `salary` - Salary of insured
 - `number of family members` - Number of dependents
+
+
+ To find customers that are similar to other customers to help the company's marketing department in placing targeted ads, it was discovered that when the data is not scaled the KNN algorithm is affected very much. However, after scaling, all the columns are brought within the same range. Also, using the Manhattan distance metric, the results on the scaled data is quite different from the results on the unscaled data. On the unscaled data, the weights are not even, and the values for the income, and insurance_benefits column are constant. The scaled data has constant values for the insurance_benefits column, just like the unscaled data. However, the values in the family_members and gender columns were constant after scaling.
+
+To predict whether a new customer is likely to receive an insurance benefit. We had to compare the performance of our model with a dummy model and see if it does better. We built a KNN-based classifier and measured its quality with the F1 metric for k = 1 - 10 for both the original data and the scaled one. The F1 score was significantly higher on the scaled dataset, and Nearest Neighbor K = 1 performed best. Therefore KNN is quite good for this task. Also, we found out that the random model performs worse than the actual KNN model.
+
+A Linear Regression model was used to predict the number of insurance benefits a new customer is likely to receive. The RMSE for both the original data and the scaled data are the same. They both had RMSE values of 0.34. This indicates that scaling the data does not have any effect on predicting targets using a Linear Regression model.
+
+Lastly, to obfuscate data, we multiply the numerical features by an invertible matrix P Also, to compute the weights in linear regression, we multiply the original weight with P inverse.
+
+
