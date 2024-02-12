@@ -59,3 +59,17 @@ The plans table (data on the plans):
 - The average revenue from users in NY-NJ area is different from that of the users from other regions.
 - How the null and alternative hypotheses were formulated.
 - What criterion were used to test the hypotheses and why.
+
+## General Conclusion
+- There are 500 customers, in 2018, who have a choice between 2 plans: 1) Surf. 2) Ultimate.
+- 68% of the users have subscribed to surf plan as opposed to 32% who use ultimate.
+- 7% of the users have churned in 2018.
+- Average number of calls per month per user in 2018 is 24
+- Average duration of call per month per user in 2018 is 171 minutes
+- Average duration of session per month per user in 2018 is 6 GB
+- Average number of messages per month per user in 2018 is 16
+- Average revenue per month per user in 2018 is $50
+- The most of the subscribers are in 60+ years category; they make up 27% of the population; they are followed closely by the other extreme group, age-wise, of users in the 18-29 years who make up 24% of the population.
+- Finally, the hypothesis test on whether the average revenue between surf users and ultimate users being different is concerned shows that the results are statistically significant such that we reject the null.
+- However, the hypothesis test on whether the average revenue between NY-NJ area users being different from the rest of the population doesn't show any statistical significance.
+- Based on the statistical analysis, we can conclude that Surf plan is relatively more profitable for the telecom operator
