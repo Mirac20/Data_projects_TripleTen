@@ -25,7 +25,7 @@ The goal in this project is to build a model with the maximum possible F1 score,
 
 
 
-## Answer these questions:
+## Questions to be answered:
 
 - Examine the balance of classes. Train the model without taking into account the imbalance. Briefly describe your findings.
 - Improve the quality of the model. Make sure you use at least two approaches to fixing class imbalance. Use the training set to pick the best parameters. 
