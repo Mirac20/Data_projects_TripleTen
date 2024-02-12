@@ -35,5 +35,5 @@ The data we have dates up to 2016. The dataset contains the abbreviation ESRB. T
 - Distribution wise, Nintendo is the most popular manufacturer with almost 38% share. On the heels of Nintendo is Sony with a similar market share of 38%, followed by Microsoft at 15%. However, in terms of revenue, Sony has a higher market share of 37%, followed by Nintendo at 34% and Microsoft at 25%.
 - The user profile segmentation by revenue by regions reveals an interesting find: NA and EU users have a preference for Action, Shooter and Sports in that order, whereas JP users have a preference for Role-playing, Action and Misc in that oder, clearly showing a cultural influence in choice of video game playing.
 - In terms of platform too, the user profile reveals that EU and NA users prefer games on Microsoft and Sony platforms over Nintendo, which is more popular in JP.
-- With respect to ratings, games that have an E or M rating have a higher markert share over other rating in NA, a rating of M or E commands a higher market share in EU, whereas, a rating of E or T garners the highest market share in JP.
+- With respect to ratings, games that have an E or M rating have a higher market share over other ratings in NA, a rating of M or E commands a higher market share in EU, whereas, a rating of E or T garners the highest market share in JP.
 
