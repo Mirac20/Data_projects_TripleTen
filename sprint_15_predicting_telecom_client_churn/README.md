@@ -32,7 +32,7 @@ The telecom operator Interconnect would like to be able to forecast their churn 
 - `num_services` - Number of services availed
 
 
-## Project Insight
+## General Conclusion
 
 Within the scope of this project, I created several predictive models using gradient boosting models, such as Light Gradient Boosting classifier model, CatBoost model, LightGBM Gradient Boosted DART Classifier, Decision Tree classifier, Random Forest classfier. The Logistic Regression model was used as our baseline model. It had a ROC-AUC score of 0.747 on the Test Set.
 To improve the score of our models we did the following:
